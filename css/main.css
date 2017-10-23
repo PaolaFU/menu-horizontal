@@ -1,0 +1,39 @@
+body{
+  font-family: sans-serif;
+}
+
+nav{
+  /*outline: 1px solid yellow;*/
+}
+ul{
+    /*outline: 1px solid blue;*/
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: #2e2e2a;
+    line-height: 40px;
+    /*Al usar float, se tiene q agregar la propiedad  overflow a la etiqueta contenedora de li para q devuelva su contexto de bloque y pueda tener a los elemntos flotados*/
+    overflow: auto;
+
+
+}
+/*Otra manera  de hacer  q elementos en bloque se comporten inline es  con float en vez de con display*/
+li{
+    /*outline: 1px solid red;*/
+    width: 100px;
+    /*inline- block para q li se comporte inline pero  no pierda caracteristicas de bloque (permite modificar ancho)*/
+    /*display: inline-block;*/
+    text-align: center;
+    /*Otra manera de posicionar uno  al lado del otro  es con propiedad float*/
+    float: left;
+}
+a{
+    /*outline: 1px solid green;*/
+    text-decoration: none;
+    display: block;
+    color: #fff;
+}
+a:hover{
+    background: #f9a91a;
+    color: #000;
+}
