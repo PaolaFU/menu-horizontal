@@ -1,7 +1,7 @@
 body{
   font-family: sans-serif;
 }
-
+/*Etiqueta Contenedora de ul, para tener estructura correcta*/
 nav{
   /*outline: 1px solid yellow;*/
 }
@@ -12,7 +12,8 @@ ul{
     padding: 0;
     background: #2e2e2a;
     line-height: 40px;
-    /*Al usar float, se tiene q agregar la propiedad  overflow a la etiqueta contenedora de li para q devuelva su contexto de bloque y pueda tener a los elemntos flotados*/
+    /*Al usar float, se tiene q agregar la propiedad  overflow a la etiqueta contenedora de li para q devuelva su contexto 
+    de bloque y pueda tener a los elemntos flotados*/
     overflow: auto;
 
 
